@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>drosophila</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        /* Add spacing around the page */
+        body {
+            padding: 40px;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Center the content within the section */
+        section#two {
+            text-align: center; /* Center text for heading */
+        }
+
+        /* Image container styling */
+        .work-item {
+            display: inline-block;
+            width: 100%; /* Make sure the image takes up 100% of its container */
+            max-width: 600px; /* Set a maximum width for the image */
+            margin: 0 auto; /* Center the image horizontally */
+            margin-bottom: 20px; /* Add some space below the image */
+        }
+
+        /* Ensure the image doesn't take up the entire page */
+        .work-item .image {
+            width: 100%;
+            height: auto;
+            max-width: 600px; /* Same width as above for consistency */
+            display: block;
+            margin: 0 auto;
+        }
+
+        .work-item img {
+            width: 100%;
+            height: auto;
+            object-fit: cover; /* Ensures the image covers the specified area without distortion */
+            margin-bottom: 20px; /* Add space below the image */
+        }
+
+        /* Increase text size below the image */
+        h3 {
+            font-size: 24px; /* Increase the font size for the heading */
+            margin-top: 20px; /* Add space between header and text */
+        }
+
+        p {
+            font-size: 18px; /* Increase the font size for the paragraph */
+            margin-top: 10px;
+            text-align: left; /* Align text to the left */
+            max-width: 600px; /* Limit the width of the text block to match the image */
+            margin-left: auto;
+            margin-right: auto; /* Keep the paragraph width aligned with the image */
+        }
+
+        /* Add space between the paragraph text and buttons */
+        .actions {
+            margin-top: 40px; /* Add more space above the buttons */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Section Two: Recent Work -->
+    <section id="two">
+        <h2>Regenerating Fly Limbs Using Genetic Engineering</h2>
+        <div class="row">
+            <article class="col-6 col-12-xsmall work-item">
+                <a href="" class="image">
+                    <img src="images/thumbs/PNG image.jpg"/>
+                </a>
+                <h3>Goentoro Lab - California Institute of Technology, Summer 2024</h3>
+                <p>Numerous biological mechanisms control the growth and development of Drosophila Melanogaster flies. During my time with the Goentoro Lab group, I investigated if it was possible to utlilize genetics to accelerate a fly’s metabolic pathway and produce a regenerative response.<br><br></p>
+            <article class="col-6 col-12-xsmall work-item">
+                <a href="" class="image">
+                    <img src="images/thumbs/base.jpg" />
+                </a>
+                <p>This project experimented with two genetically altered fly lines: r4>TOR and 	Dilp2-Gal4>UAS-NaChBac, which affected the liver and brain respectively.<br><br></p>
+            <article class="col-6 col-12-xsmall work-item">
+                <a href="" class="image">
+                    <img src="images/thumbs/r4tor.jpg"  />
+                </a>
+                <p>The r4>TOR line showed statistically signifigant regenerative potential.<br></p>
+            </article>
+            <article class="col-6 col-12-xsmall work-item">
+                <a href="" class="image">
+                    <img src="images/thumbs/PNG image.jpg" />
+                </a>
+                <p> The Dilp2-Gal4>UAS-NaChBac line did not have signifigant data, but yieded a outlier showing 40% regeneration.<br><br></p>
+        </div>
+
+        <ul class="actions">
+            <li><a href="projects.html" class="button">Projects</a></li>
+            <li><a href="index.html" class="button">Home</a></li>
+        </ul>
+    </section>
+</body>
+</html>
