@@ -9,6 +9,26 @@
         /* Add spacing around the page */
         body {
             padding: 40px;
+            font-size: 1.1em; /* Slightly increase font size for everything */
+        }
+
+        /* Ensure the fonts are consistent with the Experience section from the other page */
+        h2{
+            font-family: "Helvetica Neue", Arial, sans-serif; /* Consistent font */
+            font-size: 1.2em; /* Slightly increase font size */
+        }
+
+        /* Specific styles for project descriptions */
+        .work-item h3 {
+            font-family: "Helvetica Neue", Arial, sans-serif; /* Same as experience section */
+            font-weight: normal; /* Keep font weight normal for consistency */
+            font-size: 1.1em; /* Match experience section font size */
+        }
+
+        .work-item p {
+            font-family: "Helvetica Neue", Arial, sans-serif; /* Same font as experience section */
+            font-size: 0.9em; /* Slightly larger for readability */
+            color: #666; /* Add a neutral color for project descriptions */
         }
 
         /* Ensure the images are positioned relative to their containers */
@@ -65,6 +85,11 @@
                 width: 100%; /* Stack the items on smaller screens */
             }
         }
+
+        /* Style the button */
+        .actions .button {
+            font-size: 1.2em; /* Increase button font size */
+        }
     </style>
 </head>
 <body>
@@ -73,8 +98,16 @@
         <h2>Projects</h2>
         <div class="row">
             <article class="col-6 col-12-xsmall work-item">
+                <a href="fires.html" class="image fit">
+                    <img src="images/thumbs/firesmain.png" alt="Project 1" />
+                    <div class="hover-text">Click to learn more</div>
+                </a>
+                <h3>Simple Website Tracking the January 2025 Wildfires in Northeast Los Angeles</h3>
+                <p>Html, 2025</p>
+            </article>
+            <article class="col-6 col-12-xsmall work-item">
                 <a href="tobacco.html" class="image fit">
-                    <img src="images/thumbs/20241204010.jpg" alt="Project 1" />
+                    <img src="images/thumbs/20241204010.jpg" alt="Project 2" />
                     <div class="hover-text">Click to learn more</div>
                 </a>
                 <h3>Analyzing the Effect of NAT on Nicotiana quadrivalvis Root Growth</h3>
@@ -82,7 +115,7 @@
             </article>
             <article class="col-6 col-12-xsmall work-item">
                 <a href="drosophila.html" class="image fit">
-                    <img src="images/thumbs/PNG image.jpg" alt="Project 2" />
+                    <img src="images/thumbs/PNG image.jpg" alt="Project 3" />
                     <div class="hover-text">Click to learn more</div>
                 </a>
                 <h3>Regenerating Fly Limbs Using Genetic Engineering</h3>
@@ -90,7 +123,7 @@
             </article>
             <article class="col-6 col-12-xsmall work-item">
                 <a href="smartselect.html" class="image fit">
-                    <img src="images/thumbs/smartselect.png" alt="Project 3" />
+                    <img src="images/thumbs/smartselect.png" alt="Project 4" />
                     <div class="hover-text">Click to learn more</div>
                 </a>
                 <h3>Magic Scissors Selection Tool</h3>
@@ -98,11 +131,11 @@
             </article>
             <article class="col-6 col-12-xsmall work-item">
                 <a href="stocks.html" class="image fit">
-                    <img src="images/thumbs/plots.png" alt="Project 4" />
+                    <img src="images/thumbs/plots.png" alt="Project 5" />
                     <div class="hover-text">Click to learn more</div>
                 </a>
                 <h3>Analysis on Personal Investments for 2024</h3>
-                <p>Python script comparing how my stocks performed with respect to my net investments, 2024-2025.</p>
+                <p>Python, 2024-2025.</p>
             </article>
         </div>
 
